@@ -17,7 +17,7 @@ def game_splitter(pgn: str):
             moves.append(line.strip())
         else:
             game.append(line.strip())
-    complete_game(eco, game, games, moves) # for the last game because there is no next [Event ...]
+    complete_game(eco, game, games, moves)  # for the last game because there is no next [Event ...]
 
     return games
 

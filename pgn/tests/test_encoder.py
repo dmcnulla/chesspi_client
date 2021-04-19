@@ -21,5 +21,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.pgn_a, games[0])
         self.assertEqual(self.pgn_b, games[1])
 
+
 if __name__ == '__main__':
     unittest.main()

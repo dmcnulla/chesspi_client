@@ -1,0 +1,18 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.12.30"]
+[Round "-"]
+[White "white_pieces"]
+[Black "black_pieces"]
+[Result "0-1"]
+[WhiteElo "1218"]
+[BlackElo "1296"]
+[TimeControl "120+1"]
+[EndTime "6:47:42 PST"]
+[Termination "black_pieces won on time"]
+
+1. e4 d5 2. exd5 Qxd5 3. d4 Qa5+ 4. Nc3 c5 5. Bb5+ Nc6 6. Nf3 a6 7. Bxc6+ bxc6
+8. O-O Nf6 9. dxc5 g6 10. Be3 Bg7 11. a3 O-O 12. b4 Qc7 13. Rb1 Be6 14. Na4 Bc4
+15. Re1 Rfd8 16. Qc1 Ng4 17. Nb6 Nxe3 18. Qxe3 Ba2 19. Nxa8 Rxa8 20. Ra1 Bxa1
+21. Rxa1 Bc4 22. Rd1 a5 23. Qd4 Bd5 24. Ng5 axb4 25. axb4 f6 26. Ne4 e5 27. Qd3
+Kg7 28. Ng3 Ra4 29. c4 Be6 30. Qc3 Ra2 0-1

@@ -10,7 +10,5 @@
 [TimeControl "120+1"]
 [EndTime "6:42:57 PST"]
 [Termination "black_pieces won by resignation"]
-
-1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. c3 Bxb1 6. Rxb1 Nd7 7. b4 Ne7 8. b5 Nf5
-9. bxc6 bxc6 10. Qa4 Qc8 11. Ba3 Bxa3 12. Qxa3 Ne7 13. Ba6 Qc7 14. Rb7 Qd8 15.
-O-O O-O 16. Rfb1 Nf5 17. Bd3 Qe7 18. Rxa7 Qxa3 19. Rxa3 Rxa3 20. Bxf5 exf5 0-1
+[ECO "B12q"]
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. c3 Bxb1 6. Rxb1 Nd7 7. b4 Ne7 8. b5 Nf5 9. bxc6 bxc6 10. Qa4 Qc8 11. Ba3 Bxa3 12. Qxa3 Ne7 13. Ba6 Qc7 14. Rb7 Qd8 15. O-O O-O 16. Rfb1 Nf5 17. Bd3 Qe7 18. Rxa7 Qxa3 19. Rxa3 Rxa3 20. Bxf5 exf5 0-1

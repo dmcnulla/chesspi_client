@@ -1,5 +1,5 @@
 import unittest
-from pgn.eco import Eco
+from eco import Eco
 
 TEST0 = '1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 dxe5 6. fxe5 Bf5 7. Nc3 e6 8. Nf3 Be7 9. Be2 O-O 10. O-O f6'
 MATCH0 = 'B03l'

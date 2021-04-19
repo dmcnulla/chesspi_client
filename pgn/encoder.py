@@ -1,5 +1,6 @@
 from eco import Eco
 
+
 def game_splitter(pgn: str):
     eco = Eco()
     games = []

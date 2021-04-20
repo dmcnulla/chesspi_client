@@ -1,10 +1,10 @@
 import argparse
 from requests import post
 from encoder import game_splitter
+from json import dumps as json_dumps
 
 LOCAL_CHESSPI_SERVER = 'http://localhost:5000'
 GAME_JSON = {
-    "delimiter": "|",
     "data": {}
 }
 
@@ -26,12 +26,14 @@ def setup_argparse(server=None):
 class ChessPiClient:
     def send_pgn(self, server, pgn):
         job = GAME_JSON
-        job['data'] = self.encode(pgn)
-        post(url=f"{server}/games", json=job)
+        job['data']['pgn'] = self.encode(pgn)
+        body = json_dumps(job)
+        headers = {"Content-Type": "application/json"}
+        post(url=f"{server}/games", data=body, headers=headers)
 
     def encode(self, pgn):
         games = game_splitter(pgn)
-        return "||".join(games)
+        return "\n\n".join(games)
 
 
 if __name__ == '__main__':

@@ -35,7 +35,7 @@ def complete_game(eco, game, games, moves):
     game.append(f"[ECO '{eco_setting}']")
     re.sub(' +', ' ', all_moves)  # get rid of extra spaces in the moves list
     game.append(all_moves)
-    games.append('|'.join(game))
+    games.append('\n'.join(game))
 
 
 def skip():
